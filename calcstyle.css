@@ -1,4 +1,6 @@
-
+body {
+  margin: 0px;
+}
   .calcbutton {
     margin: 2px;
     border: solid 0px;
@@ -57,7 +59,7 @@ a {
     color: black;
   }
   .calc {
-    box-shadow: 0 1px 2.5px darkslategray;
+    box-shadow: 0 3px 5px darkslategray;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -111,15 +113,22 @@ a {
     padding-left: 20px;
   }
   .topborder {
-    width: 100%;
+    width: 100vw;
     margin-bottom: 30px;
+    margin-left: 0%;
+    margin-right: 0%;
     padding: 2.5px;
     height: fit-content;
-    box-shadow: 0 6px 10px darkslategray;
+    box-shadow: 0 10px 6px -2px gray;
     display: grid;
     grid-template-columns: 1fr 10fr 10fr;
     column-gap: 5px;
     align-items: center;
+  
+  }
+  .copyright {
+    margin: 20px;
+    text-align: center;
   }
   .copyright {
     margin: 20px;
