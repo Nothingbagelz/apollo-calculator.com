@@ -10,6 +10,7 @@ body {
     width: 60px;
     font-size: 30px;
     height: 60px;
+    color: black;
   }
    .calcbutton--operator {
    margin: 2px;
