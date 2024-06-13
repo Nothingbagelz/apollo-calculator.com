@@ -8,6 +8,11 @@
  <link rel="shortcut icon" href="favicon.ico" />
   </head>
 <body>
+  <script>
+  function printVal(value) {
+  console.log(value);
+}
+</script>
   <div class = topborder>
   <img src="icon.png" width = 100%>
   <p>
@@ -15,26 +20,26 @@
   </p>
   </div>
   <div class=calc>
-   <div class=ansdiv>
+   <div class=ansdiv id="ansBox">
      0
  </div>
   <div class = calcdiv>
-    <button class=calcbutton>7</button>
-    <button class=calcbutton>8</button>
-    <button class=calcbutton>9</button>
-    <button class=calcbutton--operator>x</button>
-    <button class=calcbutton>4</button>
-    <button class=calcbutton>5</button>
-    <button class=calcbutton>6</button>
-    <button class=calcbutton--operator>&#247</button>
-    <button class=calcbutton>1</button>
-    <button class=calcbutton>2</button>
-    <button class=calcbutton>3</button>
-    <button class=calcbutton--operator>-</button>
-    <button class=calcbutton--decimal>.</button>
-    <button class=calcbutton>0</button>
-    <button class=calcbutton--enter>=</button>
-    <button class=calcbutton--operator>+</button>
+    <button type="button" class=calcbutton id="numButton" onclick="printVal('7')">7</button>
+    <button type="button" class=calcbutton id="numButton" onclick="printVal('8')">8</button>
+    <button type="button" class=calcbutton id="numButton" onclick="printVal('9')">9</button>
+    <button type="button" class=calcbutton--operator id="OpButton" onclick="printVal('multiply')">x</button>
+    <button type="button" class=calcbutton id="numButton" onclick="printVal('4')">4</button>
+    <button type="button" class=calcbutton id="numButton" onclick="printVal('5')">5</button>
+    <button type="button" class=calcbutton id="numButton" onclick="printVal('6')">6</button>
+    <button type="button" class=calcbutton--operator id="OpButton" onclick="printVal('divide')">&#247</button>
+    <button type="button" class=calcbutton id="numButton" onclick="printVal('1')">1</button>
+    <button type="button" class=calcbutton id="numButton" onclick="printVal('2')">2</button>
+    <button type="button" class=calcbutton id="numButton" onclick="printVal('3')">3</button>
+    <button type="button" class=calcbutton--operator id="OpButton" onclick="printVal('subtract')">-</button>
+    <button type="button" class=calcbutton--decimal id="decButton" onclick="printVal('decimal')">.</button>
+    <button type="button" class=calcbutton id="numButton" onclick="printVal('0')">0</button>
+    <button type="button" class=calcbutton--enter id="enterButton" onclick="printVal('enter')">=</button>
+    <button type="button" class=calcbutton--operator id="OpButton" onclick="printVal('add')">+</button>
   </div>
   </div>
   <div class = copyright>
